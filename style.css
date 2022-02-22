@@ -27,12 +27,20 @@
   padding: var(--spacer);
   background: var(--surface-2);
   border-radius: var(--radius-2);
+  box-shadow: var(--shadow-2);
 }
 
 .media-element > img {
   inline-size: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+}
+.snaps-inline > * {
+  scroll-snap-align: start;
 }
 
 /* general styling */
