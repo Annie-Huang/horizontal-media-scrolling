@@ -1,0 +1,20 @@
+{
+  "name": "horizontal-media-scrolling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annie-Huang/horizontal-media-scrolling.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annie-Huang/horizontal-media-scrolling/issues"
+  },
+  "homepage": "https://github.com/Annie-Huang/horizontal-media-scrolling#readme"
+}
