@@ -16,6 +16,10 @@
 }
 
 .media-element {
+  display: grid;
+  grid-template-rows: min-content; /* this will make sure the top of the <p> align vertically for each child card */
+  gap: var(--size-2);
+
   padding: var(--size-3);
   background: var(--surface-2);
   border-radius: var(--radius-2);
