@@ -38,6 +38,8 @@
 
 .snaps-inline {
   scroll-snap-type: inline mandatory;
+  /* without this line, you will find out that you can move to the start of the parent. It will always snap to the start of the first image */
+  scroll-padding-inline: var(--spacer);
 }
 .snaps-inline > * {
   scroll-snap-align: start;
