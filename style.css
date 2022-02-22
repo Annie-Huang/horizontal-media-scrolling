@@ -2,8 +2,10 @@
 @import 'https://unpkg.com/open-props/normalize.min.css';
 
 .media-scroller {
+  --spacer: 1rem;
+
   display: grid;
-  gap: var(--size-3);
+  gap: var(--spacer);
   grid-auto-flow: column; /* flow against columns. Will have each child as a one column in the same row */
   grid-auto-columns: 21%; /* Better have the number not able to be divided into whole number so user knows there is more to come */
 
@@ -18,9 +20,9 @@
 .media-element {
   display: grid;
   grid-template-rows: min-content; /* this will make sure the top of the <p> align vertically for each child card */
-  gap: var(--size-2);
+  gap: var(--spacer);
 
-  padding: var(--size-3);
+  padding: var(--spacer);
   background: var(--surface-2);
   border-radius: var(--radius-2);
 }
