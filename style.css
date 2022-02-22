@@ -9,6 +9,8 @@
   grid-auto-flow: column; /* flow against columns. Will have each child as a one column in the same row */
   grid-auto-columns: 21%; /* Better have the number not able to be divided into whole number so user knows there is more to come */
 
+  padding: 0 var(--spacer) var(--spacer);
+
   overflow-x: auto;
 
   /* If you are scrolling within this class, you cannot scroll other element. Because sometimes when you scroll to the end (right or bottom) it will force to scroll other element.
