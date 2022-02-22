@@ -3,4 +3,5 @@ Create a horizontal media scroller with CSS (https://www.youtube.com/watch?v=3yf
 https://codepen.io/kevinpowell/pen/NWwNvEG
 https://codepen.io/kevinpowell/pen/ExbKBQa
 
+https://github.com/Annie-Huang/horizontal-media-scrolling
 =================================================================================
