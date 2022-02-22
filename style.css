@@ -15,6 +15,12 @@
   overscroll-behavior-inline: contain;
 }
 
+.media-element {
+  padding: var(--size-3);
+  background: var(--surface-2);
+  border-radius: var(--radius-2);
+}
+
 /* general styling */
 
 .container {
