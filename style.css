@@ -19,6 +19,18 @@
   overscroll-behavior-inline: contain;
 }
 
+.media-scroller--with-groups {
+  border: 2px solid hotpink;
+  grid-auto-columns: 100%; /* override the one in .media-scroller */
+}
+.media-group {
+  border: 2px solid limegreen;
+
+  display: grid;
+  gap: var(--spacer);
+  grid-auto-flow: column;
+}
+
 .media-element {
   display: grid;
   grid-template-rows: min-content; /* this will make sure the top of the <p> align vertically for each child card */
@@ -39,7 +51,7 @@
 .snaps-inline {
   scroll-snap-type: inline mandatory;
   /* without this line, you will find out that you can move to the start of the parent. It will always snap to the start of the first image */
-  scroll-padding-inline: var(--spacer);
+  scroll-padding-inline: var(--spacer, 1rem);
 }
 .snaps-inline > * {
   scroll-snap-align: start;
