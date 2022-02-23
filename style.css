@@ -21,7 +21,9 @@
 
 .media-scroller--with-groups {
   border: 2px solid hotpink;
-  grid-auto-columns: 100%; /* override the one in .media-scroller */
+  grid-auto-columns: 80%; /* override the one in .media-scroller */
+
+  /* With the .snaps-inline in the .media-scroller level, you can see it snaps with the direct children, which is the whole group. */
 }
 .media-group {
   border: 2px solid limegreen;
